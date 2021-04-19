@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="moestie.css">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pitta Moestie Roeselare</title>
+</head>
+<body>
+    <div class="hero">
+      <div class="nav-bar">
+          <div class="nav-logo">
+              <img src="#">            
+      </div>
+      <div class="nav-links" id="nav-links">
+          <i class="fa fa-close" onclick="closeMenu()"></i>
+          <ul>
+              <a href="#"><li>HOME</li></a>
+              <a href="#"><li>MENU</li></a>
+              <a href="#"><li>CONTACT</li></a>
+              <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+          </ul>
+          <button type="button" class="btn">DELIVERY</button>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </div>
+    <div class="banner-title">
+        <h1> Have A Taste Of<br> <span>TURKEY</span></h1>
+    </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
