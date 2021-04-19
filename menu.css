@@ -31,13 +31,13 @@
     padding: 8px 25px;
 }
 .nav-bar .fa{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .nav-links ul a{
     color: whitesmoke;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 .nav-links ul li::after{
     content: '';
@@ -58,8 +58,10 @@
     border-radius: 5px;
     border: 0;
     background: darkred;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 20px;
     cursor: pointer;
+    height: 50px;
 }
 .nav-links .btn{
     float: right;
@@ -77,116 +79,6 @@
     color: darkred;
     font-style: italic;    
 }
-.header-h {
-    font-size: 35px;
-color: red;
-font-size: 46px;
-font-family: 'Satisfy', sans-serif;
-font-weight: 300;
-}
-ul
-{
-list-style:none;
-}
-.header-p {
-color:#9699a6;
-font-size:16px;
-}
-.section-padding{
-padding: 60px 0px;
-}
-.marb-35{
-margin-bottom:35px;
-}
-.menu-restaurant
-{
-width:50%;
-float:left;
-padding:15px;
-position:realtive;
-
-}
-.menu-restaurant .menu-title
-{
-float:left;
-font-family:Montserrat,arial;
-text-transform:uppercase;
-letter-spacing:1px;
-color:#FFB03B;
-}
-.menu-restaurant .menu-line
-{
-position: absolute;
-bottom:6px;
-border-bottom:1px dotted rgba(0,0,0,.3);
-margin-left: .6em;
-margin-right: .6em;
-
-}
-
-.menu-restaurant .menu-price{
-font-weight:600;
-position:absolute;
-right:0;
-top:0;
-color: whitesmoke;
-
-}
-.menu-restaurant .menu-subtitle
-{
-display:block;
-float:left;
-color:#B1B1B1;
-font-family: Satisfy,'Open Sans',arial;
-font-size: 1.2rem;
-}
-.menu-restaurant span.clearfix{
-position:relative;
-display:block;
-}
-#menu-filters ul li a.active, #menu-filters ul li a:hover
-{
-background: #FFB03B;
-color:#fff;
-border:1px solid #FFB03B;
-}
-#menu-filters ul li 
-{
-display:inline-block;
-color:#fff;
-text-transform:capitalize;
-letter-spacing:1px;
-
-}
-#menu-filters ul li a
-{
-padding:10px 20px;
-font-size:14px;
-color:#565656;
-border-radius:0px;
-border:1px solid #BBBBBB;
-text-decoration:none;
-cursor:pointer;
-
-}
-@media (min-width: 20px) and (max-width: 450px) 
-{
-.menu-restaurant 
-{
-width: 100%;
-}
-.header-h
-{
-font-size: 35px;
-}
-.header-p 
-{
-font-size: 14px;
-}
-
-}
-
-
 
 
 @media only screen and (max-width: 768px){
