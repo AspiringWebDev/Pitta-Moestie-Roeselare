@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 .hero{
     height: 100vh;
@@ -79,6 +80,91 @@
     color: darkred;
     font-style: italic;    
 }
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+
+}
+.heading h1{
+ font-size: 45px;
+ color: whitesmoke;
+ text-align: center;
+ margin-top: 50px; 
+ letter-spacing: 5px;
+}
+.heading h3{
+    text-align: center;
+    font-size: 35px;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+.identive h1{
+    margin-top: 30px;
+    text-align: center;
+    color: darkred;
+    letter-spacing: 5px;
+}
+#container {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  #card {
+    
+    width: 300px;
+    min-width: 300px;
+    margin: 10px 30px 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-family: arial, sans-serif;
+    
+  }
+  
+  #card #card-header {
+    background: darkred;
+    box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.7);
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  #card h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  #card #details {
+    list-style: none;
+    padding: 0;
+    color: whitesmoke;
+  }
+  
+  #card #details li {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .price{
+      text-align: right;
+      margin-top: -17px;
+      font-weight: bold;
+  }
+  .descr{
+      margin-top: -17px;
+  }
+  
+
+
+
+
+
+
+
+
 
 
 
