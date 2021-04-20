@@ -129,6 +129,7 @@
     background: darkred;
     box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.7);
     margin-bottom: 20px;
+    border-radius: 5px;
   }
   
   
@@ -154,8 +155,16 @@
       font-weight: bold;
   }
   .descr{
-      margin-top: -17px;
+      margin-top: -10px;
   }
+  .descr1{
+      font-size: 15px;
+  }
+  .intr{
+      font-weight: bold;
+      font-size: 20px;
+  }
+ 
   
 
 
