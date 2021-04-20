@@ -67,13 +67,31 @@
     float: right;
     
 }
+
+.Moestie h1{
+    color: whitesmoke;
+    margin-top: 250px;
+    margin-bottom: -200px;
+    text-align: center;    
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.adres{
+    color: whitesmoke;
+    margin-top: 215px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -300px;
+}
 .banner-title{
     margin: 80px 130px;
     color: whitesmoke;
 }
 .banner-title h1{
     font-size: 85px;
-    margin-top: 270px;
+    margin-top: 400px;
 }
 .banner-title span{
     color: darkred;
@@ -87,7 +105,7 @@
     }
     .banner-title h1{
         font-size: 43px;
-        margin-top: 225px;
+        margin-top: 395px;
     }
     .nav-bar{
         padding: 10px 30px;
